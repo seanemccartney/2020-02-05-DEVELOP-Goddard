@@ -7,15 +7,15 @@ address: "Building 33, Room F105, 8800 Greenbelt Rd, Greenbelt, MD 20771"      #
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "38.992541, -76.839594"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "February 5 & 10, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Feb 5 & 10, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-02-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-02-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Sean McCartney", "Brendan McAndrew", "Callum Wayman"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Callum Wayman"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+#helper: ["Callum Wayman"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["sean.mccartney@nasa.gov", "brendan.b.mcandrew@nasa.gov", "callum.r.wayman@nasa.gov"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+#eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is #being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -324,7 +324,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="linux" href="#shell-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
 
-    <div class="tab-content">
+   <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="shell-windows">
         <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
         <ol>
@@ -440,7 +440,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="linux" href="#git-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
 
-    <div class="tab-content">
+   <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="git-windows">
         <p>
           Git should be installed on your computer as part of your Bash
@@ -496,7 +496,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="linux" href="#editor-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
 
-    <div class="tab-content">
+   <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="editor-windows">
         <p>
           nano is a basic editor and the default that instructors use in the workshop.
@@ -578,7 +578,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="linux" href="#python-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
 
-    <div class="tab-content">
+   <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="python-windows">
         <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
         <ol>
